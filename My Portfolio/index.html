@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/861539b047.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#portfolio">Portflio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p class="web">Web Developer</p>
+                    <h1>Hi,I'm <span class="colouring">Thirisha</span> from Coimbatore.</h1>
+                
+                </div>
+                <diV class="name1">
+                <p><span class="name"></span></p>
+                </diV>
+            </div>
+            
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img class="image1" src="images/th (1).jfif" alt="About me" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title title1">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum temporibus accusantium quibusdam iste eligendi quis! Voluptas eaque repellat a ducimus magnam numquam, perferendis eligendi dolor quo, minima quasi beatae odit.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Designing website</li>
+                                <li><span>Cloud Computing</span><br>AWS console & MYSQL</li>
+                                <li><span>Networking</span><br>CISCO basics</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024</span><br>Cloud Computing training at NSDC</li>
+                                <li><span>2023</span><br>CYber Security intership at NSIC</li>
+                                <li><span>2022</span><br>Entrepreneur bootcamp at Anna University REgional Campus</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2025</span><br>B.E Computer SCience and Engineering including IOT & Cybersecurity</li>
+                                <li><span>2019-2020</span><br>Higher Secondary Education at SKV Higher Secondary School</li>
+                                <li><span>2017-2018</span><br>SSLC at SKT Higher Secondary School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="certifications">
+            <div class="container">
+                <h1 class="sub-title cer title2">My Certifications</h1>
+                <div class="certifications-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>NPTEL Course</h2>
+                        <p class="color1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates vel molestiae ducimus sunt autem beatae perspiciatis, et aut vitae iste facere tenetur iusto eaque ut, reiciendis numquam ea ex.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <h2>Udemy Course</h2>
+                        <p class="color1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptas tempora ipsum ut deserunt odit? Itaque earum magni, aperiam ipsum nobis rerum dolores enim iure eveniet necessitatibus distinctio corporis culpa.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chalkboard"></i>
+                        <h2>Workshop</h2>
+                        <p class="color1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, in eligendi qui repellendus quos, magnam nemo, similique quibusdam incidunt magni iusto. Molestiae, modi ipsum. Odio aspernatur a sequi voluptatem? Dolor.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle title3">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/images/th (2).jfif">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima corporis fugit ex impedit? Repellat obcaecati quae </p>
+                            <a href="#">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/th (3).jfif">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima corporis fugit ex impedit? Repellat obcaecati quae </p>
+                            <a href="#">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/th (4).jfif">
+                    <div class="layer">
+                        <h3>Online App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima corporis fugit ex impedit? Repellat obcaecati quae </p>
+                        <a href="#">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+
+            </div>
+        </div>
+        <!---contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row rows">
+                    <div class="contact-left">
+                        <h1 class="sub-title title4">Contact Me</h1>
+                        <P><i class="fa-solid fa-paper-plane"></i> thirishaappusamy@gmail.com</P>
+                        <p><i class="fa-solid fa-square-phone"></i> 9487100492</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-square-threads"></i></a>
+                        </div>
+                        <a href="images/mycv.jfif" download class="btn btn2">Download Cv</a>
+                    </div>
+
+                    
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="text" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows=6 placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Thirisha. Made with <i class="fa-solid fa-heart heart"></i></p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+
+        
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx0oCVyfp5zwp2quL1axMcQsysXH9uyJr6PV11-gZYdM_5d3ejoluITZ31zC9G9mZc3/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        
+
+    </body>
+</html>
